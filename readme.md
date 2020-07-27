@@ -22,3 +22,4 @@ Integrating react native with existing Android and iOS native projects.
 
 - To run react native part, you need to first start the development server. To do this, run the following command in the root directory `react-native start`
 - From the native app and clicking the button to navigate to react native part, it should load the JavaScript code from the development server and display react native screens.
+- To run in release mode, no need to start the development server. Just run the `yarn run build:ios` command to generate the bundle and start the app
